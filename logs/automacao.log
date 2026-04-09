@@ -1,0 +1,545 @@
+2026-04-08 20:06:59,637 [INFO] __main__ — [PASSO 2] Iniciando webhook FastAPI em 0.0.0.0:8000
+2026-04-08 20:07:01,638 [INFO] __main__ — ============================================================
+2026-04-08 20:07:01,640 [INFO] __main__ — [PASSO 3] Iniciando fluxo diário de automação comercial
+2026-04-08 20:07:01,640 [INFO] __main__ — ============================================================
+2026-04-08 20:07:01,641 [INFO] __main__ — [PASSO 3.1] Consultando clientes sem atendimento presencial
+2026-04-08 20:07:01,641 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 20:07:01,675 [INFO] src.integrations.clientes_fake — [PASSO 1A] 1 cliente(s) no roteiro fake
+2026-04-08 20:07:01,676 [INFO] __main__ — [PASSO 3.1] 1 cliente(s) encontrado(s)
+2026-04-08 20:07:01,680 [INFO] __main__ — [PASSO 3.2] Cliente 1/1 | COD_CLI: 1001 | phone: 559181973164
+2026-04-08 20:07:01,680 [INFO] __main__ — [PASSO 3.2.1] Consultando pedidos reais para COD_CLI 1001
+2026-04-08 20:07:02,439 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1001
+2026-04-08 20:07:02,439 [INFO] __main__ — [PASSO 3.2.1] 0 item(ns) na sugestão de pedido
+2026-04-08 20:07:02,439 [INFO] __main__ — [PASSO 3.2.2] Criando sessão para phone 559181973164
+2026-04-08 20:07:02,440 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1001)
+2026-04-08 20:07:02,440 [INFO] __main__ — [PASSO 3.2.3] Disparando saudação para 559181973164
+2026-04-08 20:07:03,204 [INFO] __main__ — [PASSO 3.2.3] Mensagem enviada | HTTP 200 | phone: 559181973164
+2026-04-08 20:07:04,204 [INFO] __main__ — [PASSO 3] Fluxo diário concluído. 1 cliente(s) processado(s).
+2026-04-08 20:07:04,205 [INFO] __main__ — [PASSO 4] Sistema ativo. Aguardando respostas dos clientes...
+2026-04-08 20:07:04,205 [INFO] __main__ — [PASSO 4] Pressione Ctrl+C para encerrar.
+2026-04-08 20:08:50,977 [INFO] __main__ — [PASSO 2] Iniciando webhook FastAPI em 0.0.0.0:8000
+2026-04-08 20:08:52,978 [INFO] __main__ — ============================================================
+2026-04-08 20:08:52,980 [INFO] __main__ — [PASSO 3] Iniciando fluxo diário de automação comercial
+2026-04-08 20:08:52,980 [INFO] __main__ — ============================================================
+2026-04-08 20:08:52,981 [INFO] __main__ — [PASSO 3.1] Consultando clientes sem atendimento presencial
+2026-04-08 20:08:52,981 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 20:08:52,983 [INFO] src.integrations.clientes_fake — [PASSO 1A] 1 cliente(s) no roteiro fake
+2026-04-08 20:08:52,984 [INFO] __main__ — [PASSO 3.1] 1 cliente(s) encontrado(s)
+2026-04-08 20:08:52,985 [INFO] __main__ — [PASSO 3.2] Cliente 1/1 | COD_CLI: 1001 | phone: 559181973164
+2026-04-08 20:08:52,986 [INFO] __main__ — [PASSO 3.2.1] Consultando pedidos reais para COD_CLI 1001
+2026-04-08 20:08:53,325 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1001
+2026-04-08 20:08:53,326 [INFO] __main__ — [PASSO 3.2.1] 0 item(ns) na sugestão de pedido
+2026-04-08 20:08:53,327 [INFO] __main__ — [PASSO 3.2.2] Criando sessão para phone 559181973164
+2026-04-08 20:08:53,327 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1001)
+2026-04-08 20:08:53,327 [INFO] __main__ — [PASSO 3.2.3] Disparando saudação para 559181973164
+2026-04-08 20:08:53,998 [INFO] __main__ — [PASSO 3.2.3] Mensagem enviada | HTTP 200 | phone: 559181973164
+2026-04-08 20:08:54,999 [INFO] __main__ — [PASSO 3] Fluxo diário concluído. 1 cliente(s) processado(s).
+2026-04-08 20:08:55,000 [INFO] __main__ — [PASSO 4] Sistema ativo. Aguardando respostas dos clientes...
+2026-04-08 20:08:55,001 [INFO] __main__ — [PASSO 4] Pressione Ctrl+C para encerrar.
+2026-04-08 20:15:34,792 [INFO] __main__ — [ENCERRAMENTO] Sistema encerrado manualmente.
+2026-04-08 20:19:52,404 [INFO] __main__ — [PASSO 2] Iniciando webhook FastAPI em 0.0.0.0:8000
+2026-04-08 20:19:54,405 [INFO] __main__ — ============================================================
+2026-04-08 20:19:54,405 [INFO] __main__ — [PASSO 3] Iniciando fluxo diário de automação comercial
+2026-04-08 20:19:54,405 [INFO] __main__ — ============================================================
+2026-04-08 20:19:54,406 [INFO] __main__ — [PASSO 3.1] Consultando clientes sem atendimento presencial
+2026-04-08 20:19:54,406 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 20:19:54,406 [INFO] src.integrations.clientes_fake — [PASSO 1A] 1 cliente(s) no roteiro fake
+2026-04-08 20:19:54,406 [INFO] __main__ — [PASSO 3.1] 1 cliente(s) encontrado(s)
+2026-04-08 20:19:54,406 [INFO] __main__ — [PASSO 3.2] Cliente 1/1 | COD_CLI: 1001 | phone: 559181973164
+2026-04-08 20:19:54,407 [INFO] __main__ — [PASSO 3.2.1] Consultando pedidos reais para COD_CLI 1001
+2026-04-08 20:19:54,898 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1001
+2026-04-08 20:19:54,898 [INFO] __main__ — [PASSO 3.2.1] 0 item(ns) na sugestão de pedido
+2026-04-08 20:19:54,898 [INFO] __main__ — [PASSO 3.2.2] Criando sessão para phone 559181973164
+2026-04-08 20:19:54,898 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1001)
+2026-04-08 20:19:54,898 [INFO] __main__ — [PASSO 3.2.3] Disparando saudação para 559181973164
+2026-04-08 20:19:56,739 [INFO] __main__ — [PASSO 3.2.3] Mensagem enviada | HTTP 200 | phone: 559181973164
+2026-04-08 20:19:57,740 [INFO] __main__ — [PASSO 3] Fluxo diário concluído. 1 cliente(s) processado(s).
+2026-04-08 20:19:57,741 [INFO] __main__ — [PASSO 4] Sistema ativo. Aguardando respostas dos clientes...
+2026-04-08 20:19:57,741 [INFO] __main__ — [PASSO 4] Pressione Ctrl+C para encerrar.
+2026-04-08 20:21:11,753 [INFO] __main__ — [PASSO 2] Iniciando webhook FastAPI em 0.0.0.0:8000
+2026-04-08 20:21:13,754 [INFO] __main__ — ============================================================
+2026-04-08 20:21:13,755 [INFO] __main__ — [PASSO 3] Iniciando fluxo diário de automação comercial
+2026-04-08 20:21:13,756 [INFO] __main__ — ============================================================
+2026-04-08 20:21:13,756 [INFO] __main__ — [PASSO 3.1] Consultando clientes sem atendimento presencial
+2026-04-08 20:21:13,756 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 20:21:13,758 [INFO] src.integrations.clientes_fake — [PASSO 1A] 1 cliente(s) no roteiro fake
+2026-04-08 20:21:13,759 [INFO] __main__ — [PASSO 3.1] 1 cliente(s) encontrado(s)
+2026-04-08 20:21:13,760 [INFO] __main__ — [PASSO 3.2] Cliente 1/1 | COD_CLI: 1001 | phone: 559181973164
+2026-04-08 20:21:13,761 [INFO] __main__ — [PASSO 3.2.1] Consultando pedidos reais para COD_CLI 1001
+2026-04-08 20:21:14,147 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1001
+2026-04-08 20:21:14,148 [INFO] __main__ — [PASSO 3.2.1] 0 item(ns) na sugestão de pedido
+2026-04-08 20:21:14,150 [INFO] __main__ — [PASSO 3.2.2] Criando sessão para phone 559181973164
+2026-04-08 20:21:14,151 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1001)
+2026-04-08 20:21:14,152 [INFO] __main__ — [PASSO 3.2.3] Disparando saudação para 559181973164
+2026-04-08 20:21:14,861 [INFO] __main__ — [PASSO 3.2.3] Mensagem enviada | HTTP 200 | phone: 559181973164
+2026-04-08 20:21:15,863 [INFO] __main__ — [PASSO 3] Fluxo diário concluído. 1 cliente(s) processado(s).
+2026-04-08 20:21:15,865 [INFO] __main__ — [PASSO 4] Sistema ativo. Aguardando respostas dos clientes...
+2026-04-08 20:21:15,865 [INFO] __main__ — [PASSO 4] Pressione Ctrl+C para encerrar.
+2026-04-08 20:26:58,286 [INFO] __main__ — [PASSO 2A] Webhook Z-API iniciando em 0.0.0.0:50001
+2026-04-08 20:26:58,286 [INFO] __main__ — [PASSO 2B] Dashboard web iniciando em 0.0.0.0:50000
+2026-04-08 20:27:00,287 [INFO] __main__ — ============================================================
+2026-04-08 20:27:00,288 [INFO] __main__ — [PASSO 3] Iniciando fluxo diário de automação comercial
+2026-04-08 20:27:00,288 [INFO] __main__ — ============================================================
+2026-04-08 20:27:00,288 [INFO] __main__ — [PASSO 3.1] Consultando clientes sem atendimento presencial
+2026-04-08 20:27:00,288 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 20:27:00,290 [INFO] src.integrations.clientes_fake — [PASSO 1A] 1 cliente(s) no roteiro fake
+2026-04-08 20:27:00,290 [INFO] __main__ — [PASSO 3.1] 1 cliente(s) encontrado(s)
+2026-04-08 20:27:00,291 [INFO] __main__ — [PASSO 3.2] Cliente 1/1 | COD_CLI: 1001 | phone: 559181973164
+2026-04-08 20:27:00,292 [INFO] __main__ — [PASSO 3.2.1] Consultando pedidos reais para COD_CLI 1001
+2026-04-08 20:27:00,727 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1001
+2026-04-08 20:27:00,727 [INFO] __main__ — [PASSO 3.2.1] 0 item(ns) na sugestão de pedido
+2026-04-08 20:27:00,727 [INFO] __main__ — [PASSO 3.2.2] Criando sessão para phone 559181973164
+2026-04-08 20:27:00,727 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1001)
+2026-04-08 20:27:00,727 [INFO] __main__ — [PASSO 3.2.3] Disparando saudação para 559181973164
+2026-04-08 20:27:01,656 [INFO] __main__ — [PASSO 3.2.3] Mensagem enviada | HTTP 200 | phone: 559181973164
+2026-04-08 20:27:02,657 [INFO] __main__ — [PASSO 3] Fluxo diário concluído. 1 cliente(s) processado(s).
+2026-04-08 20:27:02,658 [INFO] __main__ — [PASSO 4] Sistema ativo. Aguardando respostas dos clientes...
+2026-04-08 20:27:02,658 [INFO] __main__ — [PASSO 4] Pressione Ctrl+C para encerrar.
+2026-04-08 20:50:38,828 [INFO] __main__ — [PASSO 2A] Webhook Z-API iniciando em 0.0.0.0:50001
+2026-04-08 20:50:38,829 [INFO] __main__ — [PASSO 2B] Dashboard web iniciando em 0.0.0.0:50000
+2026-04-08 20:50:40,829 [INFO] __main__ — ============================================================
+2026-04-08 20:50:40,830 [INFO] __main__ — [PASSO 3] Iniciando fluxo diário de automação comercial
+2026-04-08 20:50:40,830 [INFO] __main__ — ============================================================
+2026-04-08 20:50:40,830 [INFO] __main__ — [PASSO 3.1] Consultando clientes sem atendimento presencial
+2026-04-08 20:50:40,832 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 20:50:40,832 [INFO] src.integrations.clientes_fake — [PASSO 1A] 1 cliente(s) no roteiro fake
+2026-04-08 20:50:40,833 [INFO] __main__ — [PASSO 3.1] 1 cliente(s) encontrado(s)
+2026-04-08 20:50:40,833 [INFO] __main__ — [PASSO 3.2] Cliente 1/1 | COD_CLI: 1001 | phone: 559181973164
+2026-04-08 20:50:40,834 [INFO] __main__ — [PASSO 3.2.1] Consultando pedidos reais para COD_CLI 1001
+2026-04-08 20:51:01,902 [ERROR] src.services.pedido_service — [PedidoService] Erro ao consultar pedidos de 1001: HTTPConnectionPool(host='192.168.0.70', port=3535): Max retries exceeded with url: /consulta (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000025AEE81BB60>, 'Connection to 192.168.0.70 timed out. (connect timeout=30)'))
+2026-04-08 20:51:01,903 [INFO] __main__ — [PASSO 3.2.1] 0 item(ns) na sugestão de pedido
+2026-04-08 20:51:01,903 [INFO] __main__ — [PASSO 3.2.2] Criando sessão para phone 559181973164
+2026-04-08 20:51:01,904 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1001)
+2026-04-08 20:51:01,904 [INFO] __main__ — [PASSO 3.2.3] Disparando saudação para 559181973164
+2026-04-08 20:51:03,373 [INFO] __main__ — [PASSO 3.2.3] Mensagem enviada | HTTP 200 | phone: 559181973164
+2026-04-08 20:51:04,374 [INFO] __main__ — [PASSO 3] Fluxo diário concluído. 1 cliente(s) processado(s).
+2026-04-08 20:51:04,376 [INFO] __main__ — [PASSO 4] Sistema ativo. Aguardando respostas dos clientes...
+2026-04-08 20:51:04,377 [INFO] __main__ — [PASSO 4] Pressione Ctrl+C para encerrar.
+2026-04-08 21:13:42,370 [INFO] src.core.history — [History] Banco inicializado em C:\Users\alison.mendes\Desktop\DEV\ARQUITETURE_SDD\automacao\logs\history.db
+2026-04-08 21:13:42,372 [INFO] __main__ — [PASSO 3] Webhook Z-API iniciando em 0.0.0.0:50001
+2026-04-08 21:13:42,374 [INFO] __main__ — [PASSO 4] Dashboard iniciando em http://0.0.0.0:50000
+2026-04-08 21:13:44,410 [INFO] apscheduler.scheduler — Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-08 21:13:44,417 [INFO] apscheduler.scheduler — Added job "executar_fluxo_diario" to job store "default"
+2026-04-08 21:13:44,417 [INFO] apscheduler.scheduler — Scheduler started
+2026-04-08 21:13:44,419 [INFO] __main__ — [PASSO 5] Scheduler ativo — fluxo diário agendado para 08:00 (todo dia).
+2026-04-08 21:13:44,430 [INFO] __main__ — [PASSO 5] EXECUTAR_AGORA=true — executando agora...
+2026-04-08 21:13:44,431 [INFO] __main__ — ============================================================
+2026-04-08 21:13:44,431 [INFO] __main__ — [PASSO 5] Iniciando fluxo diário de automação
+2026-04-08 21:13:44,431 [INFO] __main__ — ============================================================
+2026-04-08 21:13:44,431 [INFO] __main__ — [PASSO 5.1] Métricas do dia zeradas
+2026-04-08 21:13:44,432 [INFO] __main__ — [PASSO 5.2] Consultando clientes sem atendimento presencial
+2026-04-08 21:13:44,432 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 21:13:44,434 [INFO] src.integrations.clientes_fake — [PASSO 1A] 1 cliente(s) no roteiro fake
+2026-04-08 21:13:44,435 [INFO] __main__ — [PASSO 5.2] 1 cliente(s) encontrado(s)
+2026-04-08 21:13:44,436 [INFO] __main__ — [PASSO 5.3] Cliente 1/1 | COD_CLI: 1001 | phone: 559181973164
+2026-04-08 21:13:44,436 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1001
+2026-04-08 21:13:46,864 [ERROR] src.services.pedido_service — [PedidoService] Erro ao consultar pedidos de 1001: HTTPConnectionPool(host='192.168.0.70', port=3535): Max retries exceeded with url: /consulta (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D7B99EECF0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2026-04-08 21:13:46,865 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:13:46,865 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:13:46,865 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1001)
+2026-04-08 21:13:46,865 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:13:48,911 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:13:49,926 [INFO] __main__ — [PASSO 5.4] Salvando execução no histórico
+2026-04-08 21:13:49,953 [INFO] src.core.history — [History] Execução salva: 2026-04-08 21:13
+2026-04-08 21:13:49,955 [INFO] __main__ — [PASSO 5] Fluxo diário concluído. 1 cliente(s) processado(s).
+2026-04-08 21:13:49,956 [INFO] __main__ — [PASSO 6] Sistema permanente ativo.
+2026-04-08 21:13:49,956 [INFO] __main__ — [PASSO 6] Dashboard: http://localhost:50000
+2026-04-08 21:13:49,957 [INFO] __main__ — [PASSO 6] Webhook:   http://localhost:50001/webhook
+2026-04-08 21:13:49,957 [INFO] __main__ — [PASSO 6] Próximo disparo: 08:00 (todo dia). Ctrl+C para encerrar.
+2026-04-08 21:16:48,187 [INFO] src.core.history — [History] Banco inicializado em C:\Users\alison.mendes\Desktop\DEV\ARQUITETURE_SDD\automacao\logs\history.db
+2026-04-08 21:16:48,189 [INFO] __main__ — [PASSO 3] Webhook Z-API iniciando em 0.0.0.0:50001
+2026-04-08 21:16:48,190 [INFO] __main__ — [PASSO 4] Dashboard iniciando em http://0.0.0.0:50000
+2026-04-08 21:16:50,204 [INFO] apscheduler.scheduler — Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-08 21:16:50,206 [INFO] apscheduler.scheduler — Added job "executar_fluxo_diario" to job store "default"
+2026-04-08 21:16:50,207 [INFO] apscheduler.scheduler — Scheduler started
+2026-04-08 21:16:50,207 [INFO] __main__ — [PASSO 5] Scheduler ativo — fluxo diário agendado para 08:00 (todo dia).
+2026-04-08 21:16:50,208 [INFO] __main__ — [PASSO 5] EXECUTAR_AGORA=true — executando agora...
+2026-04-08 21:16:50,208 [INFO] __main__ — ============================================================
+2026-04-08 21:16:50,208 [INFO] __main__ — [PASSO 5] Iniciando fluxo diário de automação
+2026-04-08 21:16:50,208 [INFO] __main__ — ============================================================
+2026-04-08 21:16:50,208 [INFO] __main__ — [PASSO 5.1] Métricas do dia zeradas
+2026-04-08 21:16:50,208 [INFO] __main__ — [PASSO 5.2] Consultando clientes sem atendimento presencial
+2026-04-08 21:16:50,208 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 21:16:50,209 [INFO] src.integrations.clientes_fake — [PASSO 1A] 1 cliente(s) no roteiro fake
+2026-04-08 21:16:50,210 [INFO] __main__ — [PASSO 5.2] 1 cliente(s) encontrado(s)
+2026-04-08 21:16:50,210 [INFO] __main__ — [PASSO 5.3] Cliente 1/1 | COD_CLI: 1001 | phone: 559181973164
+2026-04-08 21:16:50,210 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1001
+2026-04-08 21:16:52,806 [ERROR] src.services.pedido_service — [PedidoService] Erro ao consultar pedidos de 1001: HTTPConnectionPool(host='192.168.0.70', port=3535): Max retries exceeded with url: /consulta (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019EE1776CF0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2026-04-08 21:16:52,806 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:16:52,806 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:16:52,806 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1001)
+2026-04-08 21:16:52,807 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:16:53,936 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:16:54,991 [INFO] __main__ — [PASSO 5.4] Salvando execução no histórico
+2026-04-08 21:16:55,024 [INFO] src.core.history — [History] Execução salva: 2026-04-08 21:16
+2026-04-08 21:16:55,025 [INFO] __main__ — [PASSO 5] Fluxo diário concluído. 1 cliente(s) processado(s).
+2026-04-08 21:16:55,025 [INFO] __main__ — [PASSO 6] Sistema permanente ativo.
+2026-04-08 21:16:55,025 [INFO] __main__ — [PASSO 6] Dashboard: http://localhost:50000
+2026-04-08 21:16:55,025 [INFO] __main__ — [PASSO 6] Webhook:   http://localhost:50001/webhook
+2026-04-08 21:16:55,025 [INFO] __main__ — [PASSO 6] Próximo disparo: 08:00 (todo dia). Ctrl+C para encerrar.
+2026-04-08 21:17:30,295 [INFO] src.core.history — [History] Banco inicializado em C:\Users\alison.mendes\Desktop\DEV\ARQUITETURE_SDD\automacao\logs\history.db
+2026-04-08 21:17:30,298 [INFO] __main__ — [PASSO 3] Webhook Z-API iniciando em 0.0.0.0:50001
+2026-04-08 21:17:30,301 [INFO] __main__ — [PASSO 4] Dashboard iniciando em http://0.0.0.0:50000
+2026-04-08 21:17:32,309 [INFO] apscheduler.scheduler — Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-08 21:17:32,311 [INFO] apscheduler.scheduler — Added job "executar_fluxo_diario" to job store "default"
+2026-04-08 21:17:32,312 [INFO] apscheduler.scheduler — Scheduler started
+2026-04-08 21:17:32,313 [INFO] __main__ — [PASSO 5] Scheduler ativo — fluxo diário agendado para 08:00 (todo dia).
+2026-04-08 21:17:32,313 [INFO] __main__ — [PASSO 5] EXECUTAR_AGORA=true — executando agora...
+2026-04-08 21:17:32,314 [INFO] __main__ — ============================================================
+2026-04-08 21:17:32,314 [INFO] __main__ — [PASSO 5] Iniciando fluxo diário de automação
+2026-04-08 21:17:32,314 [INFO] __main__ — ============================================================
+2026-04-08 21:17:32,315 [INFO] __main__ — [PASSO 5.1] Métricas do dia zeradas
+2026-04-08 21:17:32,315 [INFO] __main__ — [PASSO 5.2] Consultando clientes sem atendimento presencial
+2026-04-08 21:17:32,315 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 21:17:32,318 [INFO] src.integrations.clientes_fake — [PASSO 1A] 1 cliente(s) no roteiro fake
+2026-04-08 21:17:32,324 [INFO] __main__ — [PASSO 5.2] 1 cliente(s) encontrado(s)
+2026-04-08 21:17:32,325 [INFO] __main__ — [PASSO 5.3] Cliente 1/1 | COD_CLI: 1001 | phone: 559181973164
+2026-04-08 21:17:32,325 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1001
+2026-04-08 21:17:34,800 [ERROR] src.services.pedido_service — [PedidoService] Erro ao consultar pedidos de 1001: HTTPConnectionPool(host='192.168.0.70', port=3535): Max retries exceeded with url: /consulta (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027B976A17F0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2026-04-08 21:17:34,801 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:17:34,802 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:17:34,802 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1001)
+2026-04-08 21:17:34,803 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:17:35,922 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:17:36,946 [INFO] __main__ — [PASSO 5.4] Salvando execução no histórico
+2026-04-08 21:17:36,998 [INFO] src.core.history — [History] Execução salva: 2026-04-08 21:17
+2026-04-08 21:17:36,999 [INFO] __main__ — [PASSO 5] Fluxo diário concluído. 1 cliente(s) processado(s).
+2026-04-08 21:17:37,000 [INFO] __main__ — [PASSO 6] Sistema permanente ativo.
+2026-04-08 21:17:37,000 [INFO] __main__ — [PASSO 6] Dashboard: http://localhost:50000
+2026-04-08 21:17:37,000 [INFO] __main__ — [PASSO 6] Webhook:   http://localhost:50001/webhook
+2026-04-08 21:17:37,001 [INFO] __main__ — [PASSO 6] Próximo disparo: 08:00 (todo dia). Ctrl+C para encerrar.
+2026-04-08 21:22:59,620 [INFO] apscheduler.scheduler — Scheduler has been shut down
+2026-04-08 21:22:59,621 [INFO] __main__ — [ENCERRAMENTO] Sistema encerrado manualmente.
+2026-04-08 21:23:59,792 [INFO] src.core.history — [History] Banco inicializado em C:\Users\alison.mendes\Desktop\DEV\ARQUITETURE_SDD\automacao\logs\history.db
+2026-04-08 21:23:59,794 [INFO] __main__ — [PASSO 3] Webhook Z-API iniciando em 0.0.0.0:50001
+2026-04-08 21:23:59,794 [INFO] __main__ — [PASSO 4] Dashboard iniciando em http://0.0.0.0:50000
+2026-04-08 21:24:01,808 [INFO] apscheduler.scheduler — Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-08 21:24:01,810 [INFO] apscheduler.scheduler — Added job "executar_fluxo_diario" to job store "default"
+2026-04-08 21:24:01,811 [INFO] apscheduler.scheduler — Scheduler started
+2026-04-08 21:24:01,811 [INFO] __main__ — [PASSO 5] Scheduler ativo — fluxo diário agendado para 08:00 (todo dia).
+2026-04-08 21:24:01,812 [INFO] __main__ — [PASSO 5] EXECUTAR_AGORA=true — executando agora...
+2026-04-08 21:24:01,812 [INFO] __main__ — ============================================================
+2026-04-08 21:24:01,812 [INFO] __main__ — [PASSO 5] Iniciando fluxo diário de automação
+2026-04-08 21:24:01,812 [INFO] __main__ — ============================================================
+2026-04-08 21:24:01,812 [INFO] __main__ — [PASSO 5.1] Métricas do dia zeradas
+2026-04-08 21:24:01,812 [INFO] __main__ — [PASSO 5.2] Consultando clientes sem atendimento presencial
+2026-04-08 21:24:01,813 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 21:24:01,814 [INFO] src.integrations.clientes_fake — [PASSO 1A] 1 cliente(s) no roteiro fake
+2026-04-08 21:24:01,814 [INFO] __main__ — [PASSO 5.2] 1 cliente(s) encontrado(s)
+2026-04-08 21:24:01,815 [INFO] __main__ — [PASSO 5.3] Cliente 1/1 | COD_CLI: 1001 | phone: 559181973164
+2026-04-08 21:24:01,815 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1001
+2026-04-08 21:24:04,433 [ERROR] src.services.pedido_service — [PedidoService] Erro ao consultar pedidos de 1001: HTTPConnectionPool(host='192.168.0.70', port=3535): Max retries exceeded with url: /consulta (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F5D6F2CF0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2026-04-08 21:24:04,433 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:24:04,434 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:24:04,435 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1001)
+2026-04-08 21:24:04,435 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:24:05,453 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:24:06,505 [INFO] __main__ — [PASSO 5.4] Salvando execução no histórico
+2026-04-08 21:24:06,556 [INFO] src.core.history — [History] Execução salva: 2026-04-08 21:24
+2026-04-08 21:24:06,556 [INFO] __main__ — [PASSO 5] Fluxo diário concluído. 1 cliente(s) processado(s).
+2026-04-08 21:24:06,556 [INFO] __main__ — [PASSO 6] Sistema permanente ativo.
+2026-04-08 21:24:06,556 [INFO] __main__ — [PASSO 6] Dashboard: http://localhost:50000
+2026-04-08 21:24:06,556 [INFO] __main__ — [PASSO 6] Webhook:   http://localhost:50001/webhook
+2026-04-08 21:24:06,557 [INFO] __main__ — [PASSO 6] Próximo disparo: 08:00 (todo dia). Ctrl+C para encerrar.
+2026-04-08 21:26:49,156 [INFO] src.core.history — [History] Banco inicializado em C:\Users\alison.mendes\Desktop\DEV\ARQUITETURE_SDD\automacao\logs\history.db
+2026-04-08 21:26:49,158 [INFO] __main__ — [PASSO 3] Webhook Z-API iniciando em 0.0.0.0:50001
+2026-04-08 21:26:49,161 [INFO] __main__ — [PASSO 4] Dashboard iniciando em http://0.0.0.0:50000
+2026-04-08 21:26:51,170 [INFO] apscheduler.scheduler — Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-08 21:26:51,172 [INFO] apscheduler.scheduler — Added job "executar_fluxo_diario" to job store "default"
+2026-04-08 21:26:51,173 [INFO] apscheduler.scheduler — Scheduler started
+2026-04-08 21:26:51,174 [INFO] __main__ — [PASSO 5] Scheduler ativo — fluxo diário agendado para 08:00 (todo dia).
+2026-04-08 21:26:51,175 [INFO] __main__ — [PASSO 5] EXECUTAR_AGORA=true — executando agora...
+2026-04-08 21:26:51,175 [INFO] __main__ — ============================================================
+2026-04-08 21:26:51,176 [INFO] __main__ — [PASSO 5] Iniciando fluxo diário de automação
+2026-04-08 21:26:51,176 [INFO] __main__ — ============================================================
+2026-04-08 21:26:51,177 [INFO] __main__ — [PASSO 5.1] Métricas do dia zeradas
+2026-04-08 21:26:51,177 [INFO] __main__ — [PASSO 5.2] Consultando clientes sem atendimento presencial
+2026-04-08 21:26:51,178 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 21:26:51,179 [INFO] src.integrations.clientes_fake — [PASSO 1A] 10 cliente(s) no roteiro fake
+2026-04-08 21:26:51,190 [INFO] __main__ — [PASSO 5.2] 10 cliente(s) encontrado(s)
+2026-04-08 21:26:51,191 [INFO] __main__ — [PASSO 5.3] Cliente 1/10 | COD_CLI: 1001 | phone: 559181973164
+2026-04-08 21:26:51,192 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1001
+2026-04-08 21:26:53,965 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1001
+2026-04-08 21:26:53,965 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:26:53,966 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:26:53,966 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1001)
+2026-04-08 21:26:53,967 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:26:55,060 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:26:56,079 [INFO] __main__ — [PASSO 5.3] Cliente 2/10 | COD_CLI: 1002 | phone: 559181973164
+2026-04-08 21:26:56,079 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1002
+2026-04-08 21:26:57,187 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1002
+2026-04-08 21:26:57,188 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:26:57,188 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:26:57,188 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1002)
+2026-04-08 21:26:57,189 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:26:58,069 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:26:59,091 [INFO] __main__ — [PASSO 5.3] Cliente 3/10 | COD_CLI: 1003 | phone: 559181973164
+2026-04-08 21:26:59,092 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1003
+2026-04-08 21:27:00,260 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1003
+2026-04-08 21:27:00,260 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:27:00,261 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:27:00,261 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1003)
+2026-04-08 21:27:00,261 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:27:01,271 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:27:02,324 [INFO] __main__ — [PASSO 5.3] Cliente 4/10 | COD_CLI: 1004 | phone: 559181973164
+2026-04-08 21:27:02,324 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1004
+2026-04-08 21:27:04,881 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1004
+2026-04-08 21:27:04,882 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:27:04,882 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:27:04,882 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1004)
+2026-04-08 21:27:04,883 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:27:05,720 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:27:06,748 [INFO] __main__ — [PASSO 5.3] Cliente 5/10 | COD_CLI: 1005 | phone: 559181973164
+2026-04-08 21:27:06,748 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1005
+2026-04-08 21:27:07,955 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1005
+2026-04-08 21:27:07,956 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:27:07,956 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:27:07,956 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1005)
+2026-04-08 21:27:07,957 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:27:08,946 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:27:09,997 [INFO] __main__ — [PASSO 5.3] Cliente 6/10 | COD_CLI: 1006 | phone: 559181973164
+2026-04-08 21:27:09,998 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1006
+2026-04-08 21:27:11,668 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1006
+2026-04-08 21:27:11,669 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:27:11,669 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:27:11,671 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1006)
+2026-04-08 21:27:11,671 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:27:12,528 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:27:13,547 [INFO] __main__ — [PASSO 5.3] Cliente 7/10 | COD_CLI: 1007 | phone: 559181973164
+2026-04-08 21:27:13,548 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1007
+2026-04-08 21:27:14,785 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1007
+2026-04-08 21:27:14,786 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:27:14,786 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:27:14,788 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1007)
+2026-04-08 21:27:14,788 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:27:15,708 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:27:16,760 [INFO] __main__ — [PASSO 5.3] Cliente 8/10 | COD_CLI: 1008 | phone: 559181973164
+2026-04-08 21:27:16,761 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1008
+2026-04-08 21:27:17,958 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1008
+2026-04-08 21:27:17,977 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:27:17,978 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:27:17,978 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1008)
+2026-04-08 21:27:17,979 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:27:18,980 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:27:20,035 [INFO] __main__ — [PASSO 5.3] Cliente 9/10 | COD_CLI: 1009 | phone: 559181973164
+2026-04-08 21:27:20,036 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1009
+2026-04-08 21:27:22,052 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1009
+2026-04-08 21:27:22,053 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:27:22,053 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:27:22,054 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1009)
+2026-04-08 21:27:22,054 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:27:23,282 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:27:24,333 [INFO] __main__ — [PASSO 5.3] Cliente 10/10 | COD_CLI: 1010 | phone: 559181973164
+2026-04-08 21:27:24,335 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1010
+2026-04-08 21:27:25,844 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1010
+2026-04-08 21:27:25,845 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:27:25,846 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:27:25,846 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1010)
+2026-04-08 21:27:25,847 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:27:26,900 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:27:27,950 [INFO] __main__ — [PASSO 5.4] Salvando execução no histórico
+2026-04-08 21:27:27,967 [INFO] src.core.history — [History] Execução salva: 2026-04-08 21:27
+2026-04-08 21:27:27,968 [INFO] __main__ — [PASSO 5] Fluxo diário concluído. 10 cliente(s) processado(s).
+2026-04-08 21:27:27,969 [INFO] __main__ — [PASSO 6] Sistema permanente ativo.
+2026-04-08 21:27:27,970 [INFO] __main__ — [PASSO 6] Dashboard: http://localhost:50000
+2026-04-08 21:27:27,970 [INFO] __main__ — [PASSO 6] Webhook:   http://localhost:50001/webhook
+2026-04-08 21:27:27,971 [INFO] __main__ — [PASSO 6] Próximo disparo: 08:00 (todo dia). Ctrl+C para encerrar.
+2026-04-08 21:29:24,266 [INFO] apscheduler.scheduler — Scheduler has been shut down
+2026-04-08 21:29:24,268 [INFO] __main__ — [ENCERRAMENTO] Sistema encerrado manualmente.
+2026-04-08 21:30:26,103 [INFO] src.core.history — [History] Banco inicializado em C:\Users\alison.mendes\Desktop\DEV\ARQUITETURE_SDD\automacao\logs\history.db
+2026-04-08 21:30:26,106 [INFO] __main__ — [PASSO 3] Webhook Z-API iniciando em 0.0.0.0:50001
+2026-04-08 21:30:26,109 [INFO] __main__ — [PASSO 4] Dashboard iniciando em http://0.0.0.0:50000
+2026-04-08 21:30:28,120 [INFO] apscheduler.scheduler — Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-08 21:30:28,123 [INFO] apscheduler.scheduler — Added job "executar_fluxo_diario" to job store "default"
+2026-04-08 21:30:28,124 [INFO] apscheduler.scheduler — Scheduler started
+2026-04-08 21:30:28,127 [INFO] __main__ — [PASSO 5] Scheduler ativo — fluxo diário agendado para 08:00 (todo dia).
+2026-04-08 21:30:28,127 [INFO] __main__ — [PASSO 5] EXECUTAR_AGORA=true — executando agora...
+2026-04-08 21:30:28,128 [INFO] __main__ — ============================================================
+2026-04-08 21:30:28,129 [INFO] __main__ — [PASSO 5] Iniciando fluxo diário de automação
+2026-04-08 21:30:28,130 [INFO] __main__ — ============================================================
+2026-04-08 21:30:28,131 [INFO] __main__ — [PASSO 5.1] Métricas do dia zeradas
+2026-04-08 21:30:28,131 [INFO] __main__ — [PASSO 5.2] Consultando clientes sem atendimento presencial
+2026-04-08 21:30:28,132 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 21:30:28,134 [INFO] src.integrations.clientes_fake — [PASSO 1A] 2 cliente(s) no roteiro fake
+2026-04-08 21:30:28,144 [INFO] __main__ — [PASSO 5.2] 2 cliente(s) encontrado(s)
+2026-04-08 21:30:28,148 [INFO] __main__ — [PASSO 5.3] Cliente 1/2 | COD_CLI: 1001 | phone: 559180379443
+2026-04-08 21:30:28,150 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1001
+2026-04-08 21:30:28,835 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1001
+2026-04-08 21:30:28,836 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:30:28,836 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559180379443
+2026-04-08 21:30:28,837 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559180379443 (cliente 1001)
+2026-04-08 21:30:28,837 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559180379443
+2026-04-08 21:30:29,850 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559180379443
+2026-04-08 21:30:30,867 [INFO] __main__ — [PASSO 5.3] Cliente 2/2 | COD_CLI: 1002 | phone: 559181973164
+2026-04-08 21:30:30,867 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1002
+2026-04-08 21:30:32,621 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1002
+2026-04-08 21:30:32,622 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:30:32,623 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:30:32,623 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1002)
+2026-04-08 21:30:32,625 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:30:33,639 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:30:34,696 [INFO] __main__ — [PASSO 5.4] Salvando execução no histórico
+2026-04-08 21:30:34,751 [INFO] src.core.history — [History] Execução salva: 2026-04-08 21:30
+2026-04-08 21:30:34,754 [INFO] __main__ — [PASSO 5] Fluxo diário concluído. 2 cliente(s) processado(s).
+2026-04-08 21:30:34,754 [INFO] __main__ — [PASSO 6] Sistema permanente ativo.
+2026-04-08 21:30:34,755 [INFO] __main__ — [PASSO 6] Dashboard: http://localhost:50000
+2026-04-08 21:30:34,756 [INFO] __main__ — [PASSO 6] Webhook:   http://localhost:50001/webhook
+2026-04-08 21:30:34,756 [INFO] __main__ — [PASSO 6] Próximo disparo: 08:00 (todo dia). Ctrl+C para encerrar.
+2026-04-08 21:31:12,331 [INFO] apscheduler.scheduler — Scheduler has been shut down
+2026-04-08 21:31:12,332 [INFO] __main__ — [ENCERRAMENTO] Sistema encerrado manualmente.
+2026-04-08 21:31:45,603 [INFO] src.core.history — [History] Banco inicializado em C:\Users\alison.mendes\Desktop\DEV\ARQUITETURE_SDD\automacao\logs\history.db
+2026-04-08 21:31:45,606 [INFO] __main__ — [PASSO 3] Webhook Z-API iniciando em 0.0.0.0:50001
+2026-04-08 21:31:45,609 [INFO] __main__ — [PASSO 4] Dashboard iniciando em http://0.0.0.0:50000
+2026-04-08 21:31:47,617 [INFO] apscheduler.scheduler — Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-08 21:31:47,620 [INFO] apscheduler.scheduler — Added job "executar_fluxo_diario" to job store "default"
+2026-04-08 21:31:47,620 [INFO] apscheduler.scheduler — Scheduler started
+2026-04-08 21:31:47,621 [INFO] __main__ — [PASSO 5] Scheduler ativo — fluxo diário agendado para 08:00 (todo dia).
+2026-04-08 21:31:47,622 [INFO] __main__ — [PASSO 5] EXECUTAR_AGORA=true — executando agora...
+2026-04-08 21:31:47,622 [INFO] __main__ — ============================================================
+2026-04-08 21:31:47,623 [INFO] __main__ — [PASSO 5] Iniciando fluxo diário de automação
+2026-04-08 21:31:47,623 [INFO] __main__ — ============================================================
+2026-04-08 21:31:47,623 [INFO] __main__ — [PASSO 5.1] Métricas do dia zeradas
+2026-04-08 21:31:47,624 [INFO] __main__ — [PASSO 5.2] Consultando clientes sem atendimento presencial
+2026-04-08 21:31:47,624 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 21:31:47,626 [INFO] src.integrations.clientes_fake — [PASSO 1A] 2 cliente(s) no roteiro fake
+2026-04-08 21:31:47,632 [INFO] __main__ — [PASSO 5.2] 2 cliente(s) encontrado(s)
+2026-04-08 21:31:47,634 [INFO] __main__ — [PASSO 5.3] Cliente 1/2 | COD_CLI: 1001 | phone: 559180379443
+2026-04-08 21:31:47,634 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1001
+2026-04-08 21:31:48,299 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1001
+2026-04-08 21:31:48,300 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:31:48,301 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559180379443
+2026-04-08 21:31:48,302 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559180379443 (cliente 1001)
+2026-04-08 21:31:48,302 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559180379443
+2026-04-08 21:31:49,313 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559180379443
+2026-04-08 21:31:50,337 [INFO] __main__ — [PASSO 5.3] Cliente 2/2 | COD_CLI: 1002 | phone: 559181973164
+2026-04-08 21:31:50,338 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1002
+2026-04-08 21:31:50,955 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1002
+2026-04-08 21:31:50,958 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:31:50,959 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:31:50,960 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1002)
+2026-04-08 21:31:50,962 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:31:53,001 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:31:54,062 [INFO] __main__ — [PASSO 5.4] Salvando execução no histórico
+2026-04-08 21:31:54,093 [INFO] src.core.history — [History] Execução salva: 2026-04-08 21:31
+2026-04-08 21:31:54,096 [INFO] __main__ — [PASSO 5] Fluxo diário concluído. 2 cliente(s) processado(s).
+2026-04-08 21:31:54,098 [INFO] __main__ — [PASSO 6] Sistema permanente ativo.
+2026-04-08 21:31:54,100 [INFO] __main__ — [PASSO 6] Dashboard: http://localhost:50000
+2026-04-08 21:31:54,102 [INFO] __main__ — [PASSO 6] Webhook:   http://localhost:50001/webhook
+2026-04-08 21:31:54,104 [INFO] __main__ — [PASSO 6] Próximo disparo: 08:00 (todo dia). Ctrl+C para encerrar.
+2026-04-08 21:39:53,007 [INFO] src.core.history — [History] Banco inicializado em C:\Users\alison.mendes\Desktop\DEV\ARQUITETURE_SDD\automacao\logs\history.db
+2026-04-08 21:39:53,008 [INFO] __main__ — [PASSO 3] Webhook Z-API iniciando em 0.0.0.0:50001
+2026-04-08 21:39:53,008 [INFO] __main__ — [PASSO 4] Dashboard iniciando em http://0.0.0.0:50000
+2026-04-08 21:39:55,017 [INFO] apscheduler.scheduler — Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-08 21:39:55,019 [INFO] apscheduler.scheduler — Added job "executar_fluxo_diario" to job store "default"
+2026-04-08 21:39:55,019 [INFO] apscheduler.scheduler — Scheduler started
+2026-04-08 21:39:55,023 [INFO] __main__ — [PASSO 5] Scheduler ativo — fluxo diário agendado para 08:00 (todo dia).
+2026-04-08 21:39:55,023 [INFO] __main__ — [PASSO 5] EXECUTAR_AGORA=true — executando agora...
+2026-04-08 21:39:55,023 [INFO] __main__ — ============================================================
+2026-04-08 21:39:55,023 [INFO] __main__ — [PASSO 5] Iniciando fluxo diário de automação
+2026-04-08 21:39:55,023 [INFO] __main__ — ============================================================
+2026-04-08 21:39:55,023 [INFO] __main__ — [PASSO 5.1] Métricas do dia zeradas
+2026-04-08 21:39:55,023 [INFO] __main__ — [PASSO 5.2] Consultando clientes sem atendimento presencial
+2026-04-08 21:39:55,023 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 21:39:55,023 [INFO] src.integrations.clientes_fake — [PASSO 1A] 2 cliente(s) no roteiro fake
+2026-04-08 21:39:55,024 [INFO] __main__ — [PASSO 5.2] 2 cliente(s) encontrado(s)
+2026-04-08 21:39:55,024 [INFO] __main__ — [PASSO 5.3] Cliente 1/2 | COD_CLI: 1001 | phone: 559180379443
+2026-04-08 21:39:55,024 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1001
+2026-04-08 21:39:55,769 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1001
+2026-04-08 21:39:55,769 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:39:55,769 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559180379443
+2026-04-08 21:39:55,769 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559180379443 (cliente 1001)
+2026-04-08 21:39:55,769 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559180379443
+2026-04-08 21:39:56,851 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559180379443
+2026-04-08 21:39:57,872 [INFO] __main__ — [PASSO 5.3] Cliente 2/2 | COD_CLI: 1002 | phone: 559181973164
+2026-04-08 21:39:57,872 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1002
+2026-04-08 21:39:58,569 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1002
+2026-04-08 21:39:58,569 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:39:58,569 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:39:58,569 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1002)
+2026-04-08 21:39:58,569 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:39:59,366 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:40:00,387 [INFO] __main__ — [PASSO 5.4] Salvando execução no histórico
+2026-04-08 21:40:00,399 [INFO] src.core.history — [History] Execução salva: 2026-04-08 21:40
+2026-04-08 21:40:00,400 [INFO] __main__ — [PASSO 5] Fluxo diário concluído. 2 cliente(s) processado(s).
+2026-04-08 21:40:00,400 [INFO] __main__ — [PASSO 6] Sistema permanente ativo.
+2026-04-08 21:40:00,400 [INFO] __main__ — [PASSO 6] Dashboard: http://localhost:50000
+2026-04-08 21:40:00,400 [INFO] __main__ — [PASSO 6] Webhook:   http://localhost:50001/webhook
+2026-04-08 21:40:00,400 [INFO] __main__ — [PASSO 6] Próximo disparo: 08:00 (todo dia). Ctrl+C para encerrar.
+2026-04-08 21:44:36,004 [INFO] src.core.history — [History] Banco inicializado em C:\Users\alison.mendes\Desktop\DEV\ARQUITETURE_SDD\automacao\logs\history.db
+2026-04-08 21:44:36,005 [INFO] __main__ — [PASSO 3] Webhook Z-API iniciando em 0.0.0.0:50001
+2026-04-08 21:44:36,005 [INFO] __main__ — [PASSO 4] Dashboard iniciando em http://0.0.0.0:50000
+2026-04-08 21:44:38,038 [INFO] apscheduler.scheduler — Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-08 21:44:38,039 [INFO] apscheduler.scheduler — Added job "executar_fluxo_diario" to job store "default"
+2026-04-08 21:44:38,039 [INFO] apscheduler.scheduler — Scheduler started
+2026-04-08 21:44:38,040 [INFO] __main__ — [PASSO 5] Scheduler ativo — fluxo diário agendado para 08:00 (todo dia).
+2026-04-08 21:44:38,042 [INFO] __main__ — [PASSO 5] EXECUTAR_AGORA=true — executando agora...
+2026-04-08 21:44:38,042 [INFO] __main__ — ============================================================
+2026-04-08 21:44:38,042 [INFO] __main__ — [PASSO 5] Iniciando fluxo diário de automação
+2026-04-08 21:44:38,042 [INFO] __main__ — ============================================================
+2026-04-08 21:44:38,042 [INFO] __main__ — [PASSO 5.1] Métricas do dia zeradas
+2026-04-08 21:44:38,043 [INFO] __main__ — [PASSO 5.2] Consultando clientes sem atendimento presencial
+2026-04-08 21:44:38,043 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 21:44:38,043 [INFO] src.integrations.clientes_fake — [PASSO 1A] 2 cliente(s) no roteiro fake
+2026-04-08 21:44:38,043 [INFO] __main__ — [PASSO 5.2] 2 cliente(s) encontrado(s)
+2026-04-08 21:44:38,044 [INFO] __main__ — [PASSO 5.3] Cliente 1/2 | COD_CLI: 1001 | phone: 559180379443
+2026-04-08 21:44:38,044 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1001
+2026-04-08 21:44:38,489 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1001
+2026-04-08 21:44:38,489 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:44:38,489 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559180379443
+2026-04-08 21:44:38,489 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559180379443 (cliente 1001)
+2026-04-08 21:44:38,489 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559180379443
+2026-04-08 21:44:39,086 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559180379443
+2026-04-08 21:44:40,106 [INFO] __main__ — [PASSO 5.3] Cliente 2/2 | COD_CLI: 1002 | phone: 559181973164
+2026-04-08 21:44:40,106 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1002
+2026-04-08 21:44:41,652 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1002
+2026-04-08 21:44:41,653 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:44:41,653 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:44:41,653 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1002)
+2026-04-08 21:44:41,653 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:44:42,478 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:44:43,485 [INFO] __main__ — [PASSO 5.4] Salvando execução no histórico
+2026-04-08 21:44:43,495 [INFO] src.core.history — [History] Execução salva: 2026-04-08 21:44
+2026-04-08 21:44:43,495 [INFO] __main__ — [PASSO 5] Fluxo diário concluído. 2 cliente(s) processado(s).
+2026-04-08 21:44:43,495 [INFO] __main__ — [PASSO 6] Sistema permanente ativo.
+2026-04-08 21:44:43,495 [INFO] __main__ — [PASSO 6] Dashboard: http://localhost:50000
+2026-04-08 21:44:43,495 [INFO] __main__ — [PASSO 6] Webhook:   http://localhost:50001/webhook
+2026-04-08 21:44:43,495 [INFO] __main__ — [PASSO 6] Próximo disparo: 08:00 (todo dia). Ctrl+C para encerrar.
+2026-04-08 21:46:31,430 [INFO] src.core.history — [History] Banco inicializado em C:\Users\alison.mendes\Desktop\DEV\ARQUITETURE_SDD\automacao\logs\history.db
+2026-04-08 21:46:31,431 [INFO] __main__ — [PASSO 3] Webhook Z-API iniciando em 0.0.0.0:50001
+2026-04-08 21:46:31,431 [INFO] __main__ — [PASSO 4] Dashboard iniciando em http://0.0.0.0:50000
+2026-04-08 21:46:33,437 [INFO] apscheduler.scheduler — Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-08 21:46:33,440 [INFO] apscheduler.scheduler — Added job "executar_fluxo_diario" to job store "default"
+2026-04-08 21:46:33,440 [INFO] apscheduler.scheduler — Scheduler started
+2026-04-08 21:46:33,441 [INFO] __main__ — [PASSO 5] Scheduler ativo — fluxo diário agendado para 08:00 (todo dia).
+2026-04-08 21:46:33,443 [INFO] __main__ — [PASSO 5] EXECUTAR_AGORA=true — executando agora...
+2026-04-08 21:46:33,443 [INFO] __main__ — ============================================================
+2026-04-08 21:46:33,443 [INFO] __main__ — [PASSO 5] Iniciando fluxo diário de automação
+2026-04-08 21:46:33,443 [INFO] __main__ — ============================================================
+2026-04-08 21:46:33,443 [INFO] __main__ — [PASSO 5.1] Métricas do dia zeradas
+2026-04-08 21:46:33,443 [INFO] __main__ — [PASSO 5.2] Consultando clientes sem atendimento presencial
+2026-04-08 21:46:33,443 [INFO] src.integrations.clientes_fake — [PASSO 1A] Executando consulta FAKE de clientes sem atendimento
+2026-04-08 21:46:33,444 [INFO] src.integrations.clientes_fake — [PASSO 1A] 2 cliente(s) no roteiro fake
+2026-04-08 21:46:33,444 [INFO] __main__ — [PASSO 5.2] 2 cliente(s) encontrado(s)
+2026-04-08 21:46:33,444 [INFO] __main__ — [PASSO 5.3] Cliente 1/2 | COD_CLI: 1001 | phone: 559180379443
+2026-04-08 21:46:33,444 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1001
+2026-04-08 21:46:33,870 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1001
+2026-04-08 21:46:33,870 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:46:33,870 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559180379443
+2026-04-08 21:46:33,870 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559180379443 (cliente 1001)
+2026-04-08 21:46:33,870 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559180379443
+2026-04-08 21:46:34,701 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559180379443
+2026-04-08 21:46:35,711 [INFO] __main__ — [PASSO 5.3] Cliente 2/2 | COD_CLI: 1002 | phone: 559181973164
+2026-04-08 21:46:35,711 [INFO] __main__ — [PASSO 5.3.1] Consultando pedidos para COD_CLI 1002
+2026-04-08 21:46:37,066 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 1002
+2026-04-08 21:46:37,066 [INFO] __main__ — [PASSO 5.3.1] 0 item(ns) na sugestão
+2026-04-08 21:46:37,066 [INFO] __main__ — [PASSO 5.3.2] Criando sessão para 559181973164
+2026-04-08 21:46:37,066 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 559181973164 (cliente 1002)
+2026-04-08 21:46:37,066 [INFO] __main__ — [PASSO 5.3.3] Disparando saudação para 559181973164
+2026-04-08 21:46:37,709 [INFO] __main__ — [PASSO 5.3.3] HTTP 200 → 559181973164
+2026-04-08 21:46:38,716 [INFO] __main__ — [PASSO 5.4] Salvando execução no histórico
+2026-04-08 21:46:38,723 [INFO] src.core.history — [History] Execução salva: 2026-04-08 21:46
+2026-04-08 21:46:38,723 [INFO] __main__ — [PASSO 5] Fluxo diário concluído. 2 cliente(s) processado(s).
+2026-04-08 21:46:38,723 [INFO] __main__ — [PASSO 6] Sistema permanente ativo.
+2026-04-08 21:46:38,723 [INFO] __main__ — [PASSO 6] Dashboard: http://localhost:50000
+2026-04-08 21:46:38,723 [INFO] __main__ — [PASSO 6] Webhook:   http://localhost:50001/webhook
+2026-04-08 21:46:38,724 [INFO] __main__ — [PASSO 6] Próximo disparo: 08:00 (todo dia). Ctrl+C para encerrar.

@@ -1,0 +1,7 @@
+pandas
+requests
+python-dotenv
+fastapi
+uvicorn[standard]
+apscheduler
+aiofiles

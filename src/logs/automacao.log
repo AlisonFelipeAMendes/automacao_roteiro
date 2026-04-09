@@ -1,0 +1,23 @@
+2026-04-08 19:34:36,695 [INFO] __main__ — Iniciando webhook FastAPI em 0.0.0.0:8000
+2026-04-08 19:34:36,697 [INFO] __main__ — Webhook ativo em background.
+2026-04-08 19:34:38,699 [INFO] __main__ — ============================================================
+2026-04-08 19:34:38,699 [INFO] __main__ — Iniciando fluxo diário de automação comercial
+2026-04-08 19:34:38,699 [INFO] __main__ — ============================================================
+2026-04-08 19:34:38,700 [INFO] __main__ — Clientes sem atendimento encontrados: 3
+2026-04-08 19:34:38,701 [INFO] __main__ — [1/3] Processando cliente 10001 | phone: 5511999999991
+2026-04-08 19:34:39,700 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 10001
+2026-04-08 19:34:39,701 [INFO] __main__ — Sugestão montada: 0 itens para cliente 10001
+2026-04-08 19:34:39,701 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 5511999999991 (cliente 10001)
+2026-04-08 19:34:41,372 [INFO] __main__ — Mensagem enviada para 5511999999991 | HTTP 200
+2026-04-08 19:34:42,374 [INFO] __main__ — [2/3] Processando cliente 10002 | phone: 5511999999992
+2026-04-08 19:34:43,154 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 10002
+2026-04-08 19:34:43,154 [INFO] __main__ — Sugestão montada: 0 itens para cliente 10002
+2026-04-08 19:34:43,154 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 5511999999992 (cliente 10002)
+2026-04-08 19:34:43,688 [INFO] __main__ — Mensagem enviada para 5511999999992 | HTTP 200
+2026-04-08 19:34:44,689 [INFO] __main__ — [3/3] Processando cliente 10003 | phone: 5511999999993
+2026-04-08 19:34:45,352 [INFO] src.services.pedido_service — [PedidoService] Sem histórico de pedidos para cliente 10003
+2026-04-08 19:34:45,352 [INFO] __main__ — Sugestão montada: 0 itens para cliente 10003
+2026-04-08 19:34:45,352 [INFO] src.core.session_manager — [SessionManager] Sessão criada para 5511999999993 (cliente 10003)
+2026-04-08 19:34:46,005 [INFO] __main__ — Mensagem enviada para 5511999999993 | HTTP 200
+2026-04-08 19:34:47,006 [INFO] __main__ — Fluxo diário concluído. 3 clientes processados.
+2026-04-08 19:34:47,006 [INFO] __main__ — Sistema aguardando respostas. Pressione Ctrl+C para encerrar.

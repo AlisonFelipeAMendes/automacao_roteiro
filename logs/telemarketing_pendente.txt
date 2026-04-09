@@ -1,0 +1,6 @@
+=== PENDENTE TELEMARKETING ===
+Data/Hora  : 2026-04-08 19:30:58
+Telefone   : 5511111111111
+COD_CLI    : 10001
+COD_VENDEDOR: 001
+==============================
